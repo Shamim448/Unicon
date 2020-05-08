@@ -1,0 +1,626 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header-section .navbar-nav .nav-link, .navbar-nav .btn-link{
+        padding: 10px 0;
+    }
+    .header-section .navbar-nav .nav-link:hover{
+        float: left;
+    }
+    .header-section .navbar-nav .active>.nav-link{
+        float: left;
+    }
+    .header-section .navbar-nav .btn-info{
+        padding: 5px 20px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .header-section .banner-inner {
+        padding: 30px 17px;
+    }
+    .header-section .banner-inner h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header-section .banner-inner .btn-light {
+        font-size: 10px;
+        padding: 7px 15px;
+    }
+    .heighlights-section .heighlights-inner h3 {
+        font-size: 10px;
+        padding: 14px 0 10px;
+        line-height: 20px;
+        z-index: 44;
+    }
+    .heighlights-section .heighlights-inner img {
+        top: -25px;
+        width: 136px;
+        z-index: -2;
+    }
+    .feature-section {
+        padding: 20px 1px;
+    }
+    .feature-section .feature-inner {
+        padding: 8px 8px;
+        box-shadow: 5px 10px 15px #ccc;
+    }
+     .feature-section .feature-inner h2 {
+    font-size: 15px;
+    line-height: 19px;
+    } 
+    .feature-section .feature-inner p {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 18px;
+    }
+    .feature-section .feature-inner .per {
+        font-size: 50px;
+    }
+    .client-section {
+        margin: 10px 0 10px;
+    }
+    .info {
+        padding: 9px 0px;
+    }
+    .info .bg-inner {
+        padding: 1px 0px;
+        background-size: cover;
+    }
+    .info .bg-inner .inner-content {
+        padding: 30% 3% 32% 22%;
+    }
+    .info .bg-inner .inner-content p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .info .bg-inner .inner-content p strong {
+        font-size: 12px;
+    }
+    .info .info-inner {
+        padding: 30px 0px;
+        text-align: center;
+    }
+  
+    .info .info-inner .btn-light {
+        font-size: 10px;
+        padding: 7px 13px;
+        margin: 4px 0px;
+    }
+    .effi-section {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .effi-section .effi-text {
+        padding: 0 0px 0 10px;
+    }
+    .effi-section .effi-text h2 {
+        margin-bottom: 5px;
+     }
+    .effi-section .effi-text p {
+        font-size: 12px;
+         margin-top: 1px;
+        line-height: 15px;
+        float: left;
+    }
+    .effi-section .effi-text p img {
+        margin-right: 10px;
+    }
+    .effi-section .effi-text p strong {
+        font-size: 10px;
+    }
+    .effi-section .btn-link{
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .effi-section .effi-text a {
+        margin: 5px 0;
+        letter-spacing: 4px;
+    }
+    .effi-section .effi-text a i {
+        margin-left: 10px;
+    }
+    .effi-section .effi-bg-inner {
+        padding: 0 13px 0 0;
+    }
+    .design-section {
+        background: #fcfcfc;
+        padding: 20px 0;
+    }
+    .design-section .title p {
+        margin: 5px auto;
+    }
+    .design-section .design-inner {
+        margin-top: 5px;
+    }
+    .design-section .design-inner h4 {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .quotes-section {
+        padding: 5px 0;
+    }
+    .quotes-section h1 {
+        font-size: 29px;
+    }
+    .quotes-section .quotes-area {
+        margin-top: 5px;
+    }
+    .quotes-section .quotes-area .top-content {
+        padding: 20px 19px;
+    }
+    .quotes-section .quotes-area .bottom-content h6 {
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    .footer-section .faq-area {
+        box-shadow: 4px 4px 25px #ccc;
+        padding: 20px 5px;
+        margin-bottom: 16px;
+    }
+    .footer-section .faq-area .faq-title h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer-section .faq-content {
+        margin-top: 5px;
+    }
+    .footer-section .btn-link {
+        font-size: 12px;
+        /* text-align: left; */
+        /* float: left; */
+        padding: 3px 0px;
+    }
+    .footer-section .card{
+        padding: 5px 0px;
+    }
+    .footer-section .card-body {
+        padding: 0 1px 0px 19px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .footer-section ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-section ul li a {
+        font-size: 10px;
+    }
+    .footer-section p {
+        margin-bottom: 25px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+       
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    .header-section .navbar-nav .nav-link, .navbar-nav .btn-link{
+        padding: 10px 0;
+    }
+    .header-section .navbar-nav .nav-link:hover{
+        float: left;
+    }
+    .header-section .navbar-nav .active>.nav-link{
+        float: left;
+    }
+    .header-section .navbar-nav .btn-info{
+        padding: 5px 20px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .header-section .banner-inner {
+        padding: 30px 100px 0px 0;
+    }
+    .header-section .banner-inner h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .header-section .banner-inner .btn-light {
+        font-size: 10px;
+        padding: 7px 15px;
+    }
+    .heighlights-section .heighlights-inner h3 {
+        font-size: 14px;
+        padding: 14px 0 10px;
+        line-height: 20px;
+        z-index: 44;
+    }
+    .heighlights-section .heighlights-inner img {
+        top: -25px;
+        width: 136px;
+        z-index: -2;
+    }
+    .feature-section {
+        padding: 20px 1px;
+    }
+    .feature-section .feature-inner {
+        padding: 8px 8px;
+        box-shadow: 5px 10px 15px #ccc;
+    }
+     .feature-section .feature-inner h2 {
+    font-size: 23px;
+    line-height: 28px;
+    } 
+    .feature-section .feature-inner p {
+        font-size: 14px;
+        margin-top: 10px;
+        line-height: 18px;
+    }
+    .feature-section .feature-inner .per {
+        font-size: 55px;
+    }
+    .client-section {
+        margin: 20px 0 10px;
+    }
+    .info {
+        padding: 9px 0px;
+    }
+    .info .bg-inner {
+        padding: 1px 0px;
+        background-size: cover;
+    }
+    .info .bg-inner .inner-content {
+        padding: 43% 3% 32% 22%;
+    }
+    .info .bg-inner .inner-content p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .info .bg-inner .inner-content p strong {
+        font-size: 14px;
+    }
+    .info .info-inner {
+        padding: 30px 0px;
+        text-align: center;
+    }
+  
+    .info .info-inner .btn-light {
+        font-size: 10px;
+        padding: 7px 13px;
+        margin: 4px 0px;
+    }
+    .effi-section {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .effi-section .effi-text {
+        padding: 0 0px 0 10px;
+    }
+    .effi-section .effi-text h2 {
+        margin-bottom: 5px;
+     }
+    .effi-section .effi-text p {
+        font-size: 14px;
+        margin-top: 7px;
+        line-height: 18px;
+        /* float: left; */
+    }
+    .effi-section .effi-text p img {
+        margin-right: 10px;
+    }
+    .effi-section .effi-text p strong {
+        font-size: 12px;
+    }
+    .effi-section .btn-link{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    .effi-section .effi-text a {
+        margin: 5px 0;
+        letter-spacing: 4px;
+    }
+    .effi-section .effi-text a i {
+        margin-left: 10px;
+    }
+    .effi-section .effi-bg-inner {
+        padding: 0 13px 0 0;
+    }
+    .design-section {
+        background: #fcfcfc;
+        padding: 20px 0;
+    }
+    .design-section .title p {
+        margin: 5px auto;
+    }
+    .design-section .design-inner {
+        margin-top: 5px;
+    }
+    .design-section .design-inner h4 {
+        font-size: 16px;
+        margin: 2px 0;
+    }
+    .quotes-section {
+        padding: 5px 0;
+    }
+    .quotes-section h1 {
+        font-size: 29px;
+    }
+    .quotes-section .quotes-area {
+        margin-top: 5px;
+    }
+    .quotes-section .quotes-area .top-content {
+        padding: 20px 19px;
+    }
+    .quotes-section .quotes-area .bottom-content h6 {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .footer-section .faq-area {
+        box-shadow: 4px 4px 25px #ccc;
+        padding: 20px 5px;
+        margin-bottom: 16px;
+    }
+    .footer-section .faq-area .faq-title h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer-section .faq-content {
+        margin-top: 5px;
+    }
+    .footer-section .btn-link {
+        font-size: 12px;
+        /* text-align: left; */
+        /* float: left; */
+        padding: 3px 0px;
+    }
+    .footer-section .card{
+        padding: 5px 0px;
+    }
+    .footer-section .card-body {
+        padding: 0 1px 0px 19px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .footer-section ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-section ul li a {
+        font-size: 12px;
+    }
+    .footer-section p {
+        margin-bottom: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+          
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .header-section .navbar-nav .nav-link, .navbar-nav .btn-link{
+        padding: 10px 0;
+    }
+    .header-section .navbar-nav .nav-link:hover{
+        float: left;
+    }
+    .header-section .navbar-nav .active>.nav-link{
+        float: left;
+    }
+    .header-section .navbar-nav .btn-info{
+        padding: 5px 20px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .header-section .banner-inner {
+        padding: 30px 20px 0px 0;
+    }
+    .header-section .banner-inner h1 {
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .header-section .banner-inner .btn-light {
+        font-size: 14px;
+        padding: 9px 17px;
+    }
+    .heighlights-section .heighlights-inner h3 {
+        font-size: 20px;
+        padding: 22px 0 17px;
+        line-height: 30px;
+        z-index: 44;
+    }
+    .heighlights-section .heighlights-inner img {
+        top: -39px;
+        width: 160px;
+        z-index: -2;
+    }
+    .feature-section {
+        padding: 60px 1px;
+    }
+    .feature-section .feature-inner {
+        padding: 22px 16px;
+        box-shadow: 5px 10px 15px #ccc;
+    }
+     .feature-section .feature-inner h2 {
+    font-size: 25px;
+    line-height: 28px;
+    } 
+    .feature-section .feature-inner p {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 18px;
+    }
+    .feature-section .feature-inner .per {
+        font-size: 70px;
+    }
+    .client-section {
+        margin: 10px 0 10px;
+    }
+    .info {
+        padding: 80px 0px;
+    }
+    .info .bg-inner {
+        padding: 2px 0px;
+        background-size: cover;
+    }
+    .info .bg-inner .inner-content {
+        padding: 30% 3% 32% 22%;
+    }
+    .info .bg-inner .inner-content p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .info .bg-inner .inner-content p strong {
+        font-size: 14px;
+    }
+    .info .info-inner {
+        padding: 30px 0px;
+        text-align: center;
+    }
+  
+    .info .info-inner .btn-light {
+        font-size: 10px;
+        padding: 7px 13px;
+        margin: 4px 0px;
+    }
+    .effi-section {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .effi-section .effi-text {
+        padding: 0 0px 0 10px;
+    }
+    .effi-section .effi-text h2 {
+        margin-bottom: 14px;
+     }
+    .effi-section .effi-text p {
+        font-size: 15px;
+        margin-top: 7px;
+        line-height: 21px;
+        float: left;
+    }
+    .effi-section .effi-text p img {
+        margin-right: 10px;
+    }
+    .effi-section .effi-text p strong {
+        font-size: 12px;
+    }
+    .effi-section .btn-link{
+        padding: 10px 28px;
+        font-size: 11px;
+    }
+    .effi-section .effi-text a {
+        margin: 9px 0;
+        letter-spacing: 6px;
+    }
+    .effi-section .effi-text a i {
+        margin-left: 10px;
+    }
+    .effi-section .effi-bg-inner {
+        padding: 0 13px 0 0;
+    }
+    .design-section {
+        background: #fcfcfc;
+        padding: 40px 0;
+    }
+    .design-section .title p {
+        margin: 19px auto;
+    }
+    .design-section .design-inner {
+        margin-top: 5px;
+    }
+    .design-section .design-inner h4 {
+        font-size: 20px;
+        margin: 2px 0;
+    }
+    .quotes-section {
+        padding: 47px 0;
+    }
+    .quotes-section h1 {
+        font-size: 29px;
+    }
+    .quotes-section .quotes-area {
+        margin-top: 5px;
+    }
+    .quotes-section .quotes-area .top-content {
+        padding: 20px 19px;
+    }
+    .quotes-section .quotes-area .bottom-content h6 {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .footer-section .faq-area {
+        box-shadow: 4px 4px 25px #ccc;
+        padding: 20px 5px;
+        margin-bottom: 16px;
+    }
+    .footer-section .faq-area .faq-title h1 {
+        font-size: 42px;
+        line-height: 51px;
+    }
+    .footer-section .faq-content {
+        margin-top: 5px;
+    }
+    .footer-section .btn-link {
+        font-size: 16px;
+        /* text-align: left; */
+        /* float: left; */
+        padding: 3px 0px;
+    }
+    .footer-section .card{
+        padding: 10px 0px;
+    }
+    .footer-section .card-body {
+        padding: 0 1px 0px 19px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .footer-section ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-section ul li a {
+        font-size: 12px;
+    }
+    .footer-section p {
+        margin-bottom: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+     
+  }
+  
+  
+  
+  
